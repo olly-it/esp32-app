@@ -5,7 +5,7 @@
   },
   "hosting": {
     "site": "esp32-olly",
-    "public": "public",
+    "public": "dist/esp32-app/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

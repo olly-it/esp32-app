@@ -23,3 +23,8 @@ create a cloud firestore DB project. create a collection "morse" and add somethi
 
 on "rule" change "allow read, write: if false;" to "allow read, write: if true;"
 (this is ok for development only)
+
+# release on Firebase Hosting
+npm run build
+
+firebase deploy --only hosting:esp32-olly
